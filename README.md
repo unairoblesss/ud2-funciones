@@ -9,6 +9,8 @@ Segundo _pack_ de ejercicios, esta vez para resolverlos usando funciones.
 
 ## Ejercicios
 
+### Funciones
+
 - [Ejercicio 1 - Perímetro de un rectángulo](./01_perimetro_rectangulo/).
 - [Ejercicio 2 - Cambio de moneda](./02_cambio_moneda/).
 - [Ejercicio 3 - Par o impar](./03_par_impar/).
