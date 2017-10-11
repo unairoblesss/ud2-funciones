@@ -1,5 +1,7 @@
 # Programación 2017
 
+![Unidad didáctica 2](https://img.shields.io/badge/UD-2-green.svg)
+
 Segundo _pack_ de ejercicios, esta vez para resolverlos usando funciones.
 
 ## IntelliJ y GitHub
