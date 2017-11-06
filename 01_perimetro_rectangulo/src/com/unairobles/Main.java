@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Main {
 
     public static int perimetroRectangulo(int a, int b) {
-	int r = a * b;
+	int r = a * 2 + 2 * b;
     return r;} //funcion2:Funcion que hace la operacipn a*b
 public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
