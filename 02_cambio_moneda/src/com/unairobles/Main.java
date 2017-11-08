@@ -9,26 +9,24 @@ public class Main {
     public static void calcularCambio(double valor1, double cambio2) {
         switch (cambio2) {
             case 1:
-                double r = valor1 * 1.15934;
-                System.out.println("El cambio en dolares es " + r);
+                System.out.println("El cambio en dolares es " +(valor1 * 1.15934));
                 break;
             case 2:
-                double r = valor1 * 0.884410;
-                System.out.println("El cambio en libras es " + r);
+
+                System.out.println("El cambio en libras es " +(valor1 * 0.884410));
                 break;
             case 3:
-                double r =  valor1 * 7.68289;
-                System.out.println("El cambio en yuanes es " + r);
+                System.out.println("El cambio en yuanes es " +(valor1 * 7.68289));
                 break;
             case 4:
-                double r = valor1 * 131.844;
-                System.out.println("El cambio en yenes es " + r);
+
+                System.out.println("El cambio en yenes es " +(valor1 * 131.844));
                 break;
             default:
         }
         } public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Introduzca una cantidad en euros: 12.5");
+        System.out.println("Introduzca una cantidad en euros: ");
         double valor1 = Double.parseDouble(br.readLine());
         System.out.println("Moneda a la que convertir (USD, GBP, CNY, JPY):");
         String conversion = br.readLine();
